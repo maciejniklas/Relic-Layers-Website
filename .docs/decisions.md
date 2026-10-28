@@ -11,3 +11,7 @@ The owner (controller) approved the EN/PL Privacy Policy text dated 2026-10-28 f
 ## W002 — Stable language-neutral policy entry `/privacy/` (2026-10-28)
 
 The game has one configurable Privacy Policy URL. `/privacy/` forwards to `/pl/privacy/` for Polish browsers and `/en/privacy/` otherwise, and lists both links when JavaScript is unavailable.
+
+## W004 — Terms of Service v2026-10-28 approved; provider is the owner's sole proprietorship (2026-10-28)
+
+The owner decided Terms apply to v1 and approved the EN/PL Terms of Service text dated 2026-10-28 (Trello #370), published at `/{en,pl}/terms/` with the stable language-neutral entry `/terms/` for the game (same pattern as W002). Provider and controller: Maciej Niklas, sole proprietorship (NIP 5892065016, REGON 388732202); the Privacy Policy controller section was aligned in the same change. Support and complaints: support@maciejniklas.com. Polish law without depriving consumers of mandatory protection of their country of residence. The text describes the current build (no ads or IAP); the owner wants ads and IAP from the first release, so both documents must be updated and re-approved before any build that initializes them. Agent analysis only; no external legal review.

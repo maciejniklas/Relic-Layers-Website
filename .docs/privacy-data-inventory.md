@@ -6,7 +6,7 @@ The game is pre-release (no store build). "Current" = implemented in code for th
 
 ## Controller
 
-Maciej Niklas, ul. Długa 23, 83-330 Skrzeszewo, Poland; privacy@maciejniklas.com (owner, 2026-10-28). Market: worldwide. Supervisory authority: Prezes UODO.
+Maciej Niklas, sole proprietorship (business name Maciej Niklas, NIP 5892065016, REGON 388732202), ul. Długa 23, 83-330 Skrzeszewo, Poland; privacy@maciejniklas.com, support@maciejniklas.com for game support and complaints (owner, 2026-10-28). Market: worldwide. Supervisory authority: Prezes UODO.
 
 ## Current processing and legal bases
 
@@ -36,8 +36,8 @@ Sources: [Analytics FAQ](https://docs.unity.com/en-us/analytics/faq), [Analytics
 - Self-service account deletion in Settings/Account (Trello #246–#248); must delete Authentication player **and** Cloud Save data and request analytics deletion.
 - Analytics consent toggle in Settings (owner, 2026-10-28).
 - In-app bug report form (GDD §117).
-- Ads (Unity LevelPlay, rewarded/interstitial) and IAP (Unity IAP) — owner expects them; GDD §91 and the v1.0 milestone exclude active monetization. Before any build that initializes them, the policy needs: ads section (LevelPlay as **controller** since Dec 2024 per Unity DPA amendment), purchase data, advertising IDs, ATT on iOS, an IAB TCF-compatible consent flow for personalized ads in the EEA/UK, age screening for Families policy, store disclosures.
-- Terms of Use page; account-deletion web page (Google Play requires a web deletion-request resource for apps with accounts).
+- Ads (Unity LevelPlay, rewarded/interstitial) and IAP (Unity IAP) — owner wants them from the first release (2026-10-28); GDD §91 and the v1.0 milestone exclude active monetization. Before any build that initializes them, the policy needs: ads section (LevelPlay as **controller** since Dec 2024 per Unity DPA amendment), purchase data, advertising IDs, ATT on iOS, an IAB TCF-compatible consent flow for personalized ads in the EEA/UK, age screening for Families policy, store disclosures. The Terms of Service also need purchase, virtual-item, refund (store-handled) and consumer-withdrawal rules for digital content.
+- Account-deletion web page (Google Play requires a web deletion-request resource for apps with accounts).
 
 ## Not used
 
