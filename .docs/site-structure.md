@@ -2,7 +2,7 @@
 
 ## URLs
 
-Live base URL (verified through the Pages API and HTTP checks, 2026-10-28): `https://maciejniklas.github.io/Relic-Layers-Website/`. The game links to `https://maciejniklas.github.io/Relic-Layers-Website/privacy/`; never change that path.
+Live base URL (verified through the Pages API and HTTP checks, 2026-10-28): `https://maciejniklas.github.io/Relic-Layers-Website/`. The game links to `https://maciejniklas.github.io/Relic-Layers-Website/privacy/` and `…/terms/`; never change those paths.
 
 Language-first paths; every player page has an EN and PL twin with the same relative path. Paths are stable — the game and store listings link to them.
 
@@ -12,9 +12,11 @@ Language-first paths; every player page has an EN and PL twin with the same rela
 | `/en/`, `/pl/` | Home |
 | `/en/privacy/`, `/pl/privacy/` | Privacy Policy |
 | `/privacy/` | Stable language-neutral entry used by the game: forwards to the browser-language policy (Polish → PL, otherwise EN) and shows both links without JavaScript |
+| `/en/terms/`, `/pl/terms/` | Terms of Service |
+| `/terms/` | Stable language-neutral Terms entry used by the game (same forwarding as `/privacy/`) |
 | `/404.html` | Not-found page (GitHub serves it for any missing path, so it uses absolute `/Relic-Layers-Website/…` links) |
 
-Future pages follow the same pattern when their content is real: `/{en,pl}/terms/`, `/{en,pl}/support/`, `/{en,pl}/account-deletion/`, plus a language-neutral entry only if the game or a store needs one URL. Add the page to the header/footer navigation of every page in both languages.
+Future pages follow the same pattern when their content is real: `/{en,pl}/support/`, `/{en,pl}/account-deletion/`, plus a language-neutral entry only if the game or a store needs one URL. Add the page to the header/footer navigation of every page in both languages.
 
 ## Page template
 

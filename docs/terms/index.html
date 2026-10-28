@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Service · Regulamin — Relic Layers</title>
+  <meta name="description" content="Relic Layers Terms of Service in English and Polish. / Regulamin Relic Layers po angielsku i po polsku.">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="alternate" hreflang="en" href="../en/terms/">
+  <link rel="alternate" hreflang="pl" href="../pl/terms/">
+  <script>
+    // Stable entry used by the game: forward to the terms in the browser's language.
+    (function () {
+      var languages = navigator.languages || [navigator.language || ""];
+      var polish = String(languages[0] || "").toLowerCase().indexOf("pl") === 0;
+      location.replace(polish ? "../pl/terms/" : "../en/terms/");
+    })();
+  </script>
+</head>
+<body>
+  <main id="main">
+    <div class="wrap">
+      <h1>Terms of Service</h1>
+      <p class="lead" lang="pl">Regulamin</p>
+      <nav aria-label="Language / Język">
+        <div class="choices">
+          <a class="button" href="../en/terms/" hreflang="en">English</a>
+          <a class="button" href="../pl/terms/" hreflang="pl" lang="pl">Polski</a>
+        </div>
+      </nav>
+    </div>
+  </main>
+</body>
+</html>
