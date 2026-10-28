@@ -2,6 +2,8 @@
 
 ## URLs
 
+Live base URL (verified through the Pages API and HTTP checks, 2026-10-28): `https://maciejniklas.github.io/Relic-Layers-Website/`. The game links to `https://maciejniklas.github.io/Relic-Layers-Website/privacy/`; never change that path.
+
 Language-first paths; every player page has an EN and PL twin with the same relative path. Paths are stable — the game and store listings link to them.
 
 | Path (relative to the site root) | Content |
