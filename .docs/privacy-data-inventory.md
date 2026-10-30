@@ -32,7 +32,7 @@ Sources: [Analytics FAQ](https://docs.unity.com/en-us/analytics/faq), [Analytics
 
 ## Planned (not implemented — do not describe as available)
 
-- Player ID visible and copyable in Settings/Account for release builds (owner, 2026-10-28; today debug builds only).
+- Player ID visible and copyable in Settings → Account in all builds: implemented in the game (2026-10-30, pending merge and device check); the policy names this location since 2026-10-30.
 - Self-service account deletion in Settings/Account (Trello #246–#248); must delete Authentication player **and** Cloud Save data and request analytics deletion.
 - Analytics consent toggle in Settings (owner, 2026-10-28).
 - In-app bug report form (GDD §117).
