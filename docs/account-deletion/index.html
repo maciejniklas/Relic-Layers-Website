@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Account deletion · Usuwanie konta — Relic Layers</title>
+  <meta name="description" content="Relic Layers account and data deletion requests in English and Polish. / Usuwanie konta Relic Layers po angielsku i po polsku.">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="alternate" hreflang="en" href="../en/account-deletion/">
+  <link rel="alternate" hreflang="pl" href="../pl/account-deletion/">
+  <script>
+    // Stable entry used by the game: forward to account deletion information in the browser's language.
+    (function () {
+      var languages = navigator.languages || [navigator.language || ""];
+      var polish = String(languages[0] || "").toLowerCase().indexOf("pl") === 0;
+      location.replace(polish ? "../pl/account-deletion/" : "../en/account-deletion/");
+    })();
+  </script>
+</head>
+<body>
+  <main id="main">
+    <div class="wrap">
+      <h1>Account deletion</h1>
+      <p class="lead" lang="pl">Usuwanie konta</p>
+      <nav aria-label="Language / Język">
+        <div class="choices">
+          <a class="button" href="../en/account-deletion/" hreflang="en">English</a>
+          <a class="button" href="../pl/account-deletion/" hreflang="pl" lang="pl">Polski</a>
+        </div>
+      </nav>
+    </div>
+  </main>
+</body>
+</html>

@@ -14,9 +14,11 @@ Language-first paths; every player page has an EN and PL twin with the same rela
 | `/privacy/` | Stable language-neutral entry used by the game: forwards to the browser-language policy (Polish → PL, otherwise EN) and shows both links without JavaScript |
 | `/en/terms/`, `/pl/terms/` | Terms of Service |
 | `/terms/` | Stable language-neutral Terms entry used by the game (same forwarding as `/privacy/`) |
+| `/en/account-deletion/`, `/pl/account-deletion/` | Account/data deletion instructions and e-mail request route (pending owner text approval and publication) |
+| `/account-deletion/` | Stable language-neutral deletion entry for the store; browser-language forwarding with both links available without JavaScript |
 | `/404.html` | Not-found page (GitHub serves it for any missing path, so it uses absolute `/Relic-Layers-Website/…` links) |
 
-Future pages follow the same pattern when their content is real: `/{en,pl}/support/`, `/{en,pl}/account-deletion/`, plus a language-neutral entry only if the game or a store needs one URL. Add the page to the header/footer navigation of every page in both languages.
+Future pages follow the same pattern when their content is real: `/{en,pl}/support/`, plus a language-neutral entry only if the game or a store needs one URL. Add the page to the header/footer navigation of every page in both languages. Deletion behavior and pending publication acceptance are documented in [account deletion](account-deletion.md).
 
 ## Page template
 

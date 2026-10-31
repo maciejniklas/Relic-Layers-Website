@@ -30,14 +30,14 @@ Deletion mechanics (Unity): deleting an Authentication player does **not** delet
 
 Sources: [Analytics FAQ](https://docs.unity.com/en-us/analytics/faq), [Analytics Google Play data safety](https://docs.unity.com/en-us/analytics/privacy-and-consent/google-data-safety), [Authentication privacy](https://docs.unity.com/en-us/authentication/privacy-and-consent/overview), [Player Accounts privacy](https://docs.unity.com/ugs/manual/authentication/manual/data-privacy-unity-player-accounts), [Delete a player](https://docs.unity.com/en-us/services/player-management/delete-a-player), [Cloud Save privacy](https://docs.unity.com/en-us/cloud-save/privacy-and-consent/overview), [End-user consent](https://docs.unity.com/en-us/cloud/developer-data-framework/end-user-consent), [Developer Data privacy](https://docs.unity.com/en-us/cloud/developer-data/privacy-and-consent), [Unity UGS DPA (2022)](https://images.response.unity3d.com/Web/Unity/%7Bf51b41f7-b4be-4d63-8da1-f68cbef9538e%7D_Signed_Unity_Gaming_Services_DPA_November_30__2022.docx.pdf), [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
-## Planned (not implemented — do not describe as available)
+## Publication status and planned features
 
-- Player ID visible and copyable in Settings → Account in all builds: implemented in the game (2026-10-30, pending merge and device check); the policy names this location since 2026-10-30.
-- Self-service account deletion in Settings/Account (Trello #246–#248); must delete Authentication player **and** Cloud Save data and request analytics deletion.
+- Player ID visible and copyable in Settings → Account in all builds: implemented in the current game source (verified 2026-10-31); the policy names this location since 2026-10-30. This source review does not establish phone-device clipboard acceptance.
+- Self-service account deletion is implemented in Settings → Account → Delete account (verified against game code on 2026-10-31): Cloud Save deletion precedes best-effort Analytics deletion request and Authentication account deletion; local credentials and scoped progress/queue data are cleared on success. The game is pre-release. The website text describes this path; publication awaits owner approval.
 - Analytics consent toggle in Settings (owner, 2026-10-28).
 - In-app bug report form (GDD §117).
 - Ads (Unity LevelPlay, rewarded/interstitial) and IAP (Unity IAP) — owner wants them from the first release (2026-10-28); GDD §91 and the v1.0 milestone exclude active monetization. Before any build that initializes them, the policy needs: ads section (LevelPlay as **controller** since Dec 2024 per Unity DPA amendment), purchase data, advertising IDs, ATT on iOS, an IAB TCF-compatible consent flow for personalized ads in the EEA/UK, age screening for Families policy, store disclosures. The Terms of Service also need purchase, virtual-item, refund (store-handled) and consumer-withdrawal rules for digital content.
-- Account-deletion web page (Google Play requires a web deletion-request resource for apps with accounts).
+- Account-deletion web page: bilingual source and stable `/account-deletion/` entry prepared on 2026-10-31; owner text approval, publication and Play Console Data safety URL entry remain pending. E-mail requests remain available without game access. No fixed Diagnostics retention period is established; do not invent one.
 
 ## Not used
 
