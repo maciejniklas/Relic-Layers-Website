@@ -1,5 +1,9 @@
 # Decisions
 
+## W006 — Account deletion page and legal cross-links proposed (2026-10-31)
+
+Status: proposed, awaiting owner approval of the concrete EN/PL text before publication. The page provides an e-mail route without requiring game access, the implemented in-game path, separate Authentication/Cloud Save deletion, an Analytics deletion request, irreversible progress loss and retained-data limits. It preserves the approved three-year correspondence period and explicitly discloses that a fixed Diagnostics retention period is unknown. The language-neutral `/account-deletion/` entry is intended for Play Console after publication; store entry and live HTTPS checks remain pending. Privacy Policy and Terms dates/cross-links are aligned. No legal approval or publication is established by local validation or a draft PR.
+
 ## W001 — Static GitHub Pages site from `main` / `docs/` (2026-10-28)
 
 Hand-written HTML/CSS with no build step and no third-party resources, published by GitHub Pages branch deployment (`main`, folder `/docs`, `.nojekyll`). Simplest option for a static site: no workflow file to maintain. Maintainer knowledge lives in `.docs/` (not served). Codex and Claude share `AGENTS.md`; Claude deltas in `CLAUDE.md`.
